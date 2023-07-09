@@ -74,28 +74,78 @@ a{
 .about-main{
     display: flex;
    align-items: center;
-
+   justify-content: space-between;
+   
 }
-.about-info{
-  text-align: center;
+.about-info {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    top: 200px;
+    padding: 10px 26px;
 }
 .about-info h1{
     color:  #151414;
     font-family: Work Sans;
     font-size: 40px;
     font-weight: 700;
-    padding: 0px 70px;
-    padding-bottom: 20px;
+    
 }
-
 .about-info p{
     color:  #444343;
     font-size: 16px;
     font-weight: 400;
+    padding: 10px 0px;
 
 }
+.about-info-text ul li{
+    line-height: 26px;
+}
+i.fa-solid.fa-check {
+    position: absolute;
+    left: 0px;
+    color: #16D887;
+    font-size: 20px;
+    margin-top: 4px;
+}
 
-/* =====Banner Part Css Bellow====== */
+/* =====plans Part Css Bellow====== */
+
+#plans{
+    padding: 30px 0px;
+}
+
+.plane-heading h1{
+    text-align: center;
+    color:  #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.plane-wrapper {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.plane-containt {
+    text-align: center;
+}
+.plane-containt h3{
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.plane-containt p{
+    color: #737272;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
 /* =====Banner Part Css Bellow====== */
 /* =====Banner Part Css Bellow====== */
 /* =====Banner Part Css Bellow====== */
